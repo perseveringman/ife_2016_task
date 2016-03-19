@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-19 16:21:26
+ * @version $Id$
+ */
+body{
+	background-color:#dedede;
+	padding: 0;
+	margin: 0
+}
+header{
+	background-color:#333;
+}
+nav{
+	margin:0 30px;
+	padding:0;
+}
+nav ul{
+	text-align:right;
+	margin:0;
+}
+.nav_li{
+	display:inline-block;
+	color:#fff;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-decoration: none;
+}
+nav a{
+	color:#fff;
+}
+.nav_four{
+	color:#bbb;
+}
+hgroup h2{
+	color:#333;
+}
+hgroup h3{
+	color:#aaa;
+}
+article{
+	padding: 20px 40px;
+	margin:15px;
+	background-color:#fff;
+	box-shadow:5px 5px 3px #333;
+}
+.picture_ul{
+	list-style:none;
+}
+table{width:100%;}
+thead{
+	height:50px;
+	background-color:#333;
+	color:#fff;
+}
+.table_sum{
+	background-color:#bbb;
+}
+aside{
+	padding: 20px;
+	margin:20px 70px 15px 15px;
+	background-color:#fff;
+	box-shadow:5px 5px 3px #333;
+}
+aside div{text-align:center;}
+.aside_title{
+	margin-left:0;
+	
+}
+.pray_words{
+	color:#bbb;
+}
+.submit{
+	margin:10px 20px 20px 20px;
+	height:40px;
+}
+button{
+	height:100%;
+	width:100%;
+	border-radius:10px ;
+	background-color:#3355D0;
+	color:#fff;
+	font-size:16px;
+}
+footer{
+	height: 70px;
+	background-color: #333;
+	min-width: 1200px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	line-height: 64px;
+}
