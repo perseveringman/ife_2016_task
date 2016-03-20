@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-20 14:23:48
+ * @version $Id$
+ */
+* {
+	padding: 0;
+	box-sizing: border-box;
+}
+ html,body{
+ 	height:100%;
+ }
+.Reference{
+	position:relative;
+	width:80%;
+	height:100%;
+	margin :0 auto;
+	border:1px solid #ccc;
+}
+.rectangle{
+	width:400px;
+	height:200px;
+	position:absolute;
+	margin:auto;
+	background-color:#ccc;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+
+}
+.corner1{
+	position:absolute;
+	background-color:#fc0;
+	width:50px;
+	height:50px;
+	border-radius:0 0 100% 0/0 0 100% 0;
+} 
+.corner2{
+	position:absolute;
+ 	background-color:#fc0;
+	width:50px;
+	height:50px;
+	border-radius:100% 0 0 0/100% 0 0 0;
+	bottom:0;
+	right:0;
+}
