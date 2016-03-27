@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-03-27 13:44:13
+ * @version $Id$
+ */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	min-width:1024px;
+}
+.clear_float:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+header{
+	width:1280px;
+	height:60px;
+	background-color:rgb(33,137,191);
+	position:relative;
+}
+.part1_icon1{
+	width:36px;
+	height:36px;
+	background-image:url(image2/part1_icon1.png);
+	position:absolute;
+	left:50px;
+	top:12px;
+}
+.part1_out_input{
+	position:absolute;
+	right:177px;
+	top:13px;
+}
+.part1_input{
+	display:block;
+	padding-left:40px;
+	width:263px;
+	height:30px;
+	border-radius:18px;
+	background-image:url(image2/part1_icon2.png);
+	background-repeat:no-repeat;
+	background-position:12px 5px;
+	font-size:13px;
+}
+.part1_login{
+	position:absolute;
+	right:90px;
+	width:40px;
+	padding-left:20px;
+	background-image:url(image2/part1_icon3.png);
+	background-repeat:no-repeat;
+	background-position:0px 21px;	
+
+	line-height:60px;
+  	font-size: 16px;
+  	font-family: "Adobe Heiti Std";
+
+}
+.part1_login a{
+  	color: rgb(255, 255, 255);
+	text-decoration:none;
+}
+
+aside{
+	width:260px;
+	height:1206px;
+	background-color:rgb(43,46,61);
+	position:relative;
+}
+.part2_1{
+	width:100%;
+	height:100px;
+	background-image:url(image2/part2_icon2.png);
+	background-repeat:no-repeat;
+	background-position:51px 21px;
+	position:relative;		
+}
+.part2_1 img{
+	display:inline-block;
+	position:absolute;
+	left:61px;
+	top:30px;
+}
+.part2_1 h2{
+	display:inline-block;
+  	font-size: 16px;
+  	font-family: "SimHei";
+	color: rgb(246, 245, 245);
+	line-height: 1.281;
+	text-align: center;
+	position: absolute;
+	left: 126.813px;
+	top: 35px;
+}
+
+.part2_2,.part2_3{
+	display:inline-block;
+	float:left;
+	width:47%;
+	height:35px;
+	font-size: 14px;
+	font-family: "SimHei";
+	color: rgb(110, 128, 149);
+	line-height: 1.125;
+  	text-align: center;
+  
+}
+.part2_3{
+	border-left:2px solid rgb(110, 128, 149);
+}
+
+.part2_4{
+	height:200px;
+	width:100%;
+	background-color:rgb(56,61,78);
+	margin-top:10px;
+}
+.part2_4_1{
+	margin:0px 40px;
+	padding:15px 21px;
+	background-image:url(image2/part2_icon3.png);
+	background-repeat:no-repeat;
+	background-position:0px 16px;
+	color:white;
+	list-style:none;
+}
+.part2_icon11{
+	padding:15px 15px 0 15px;
+	background-image:url(image2/part2_icon11.png);
+	background-repeat:no-repeat;
+	background-position:0 16px;
+}
+.part2_icon12:hover{
+	padding:0px 15px;
+	margin-top:15px ;
+	background-image:url(image2/part2_icon11.png);
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	color:white;
+}
+.part2_icon12{
+	padding:0px 15px;
+	margin-top:15px ;
+	background-image:url(image2/part2_icon12.png);
+	background-repeat:no-repeat;
+	background-position:1px 2px;
+	color:rgb(118,128,150);
+}
+.part2_icon11 li{
+	list-style:none;
+	padding-top:10px;
+	padding-left:15px;
+	margin-left:15px;
+	background-image:url(image2/part2_icon6.png);
+	background-position:0px 13px;
+	background-repeat:no-repeat;
+}
+
+.part2_4_2{
+	margin:0px 37px;
+	padding:15px 0px;
+	color:rgb(118,128,150);
+	list-style:none;
+}
+.part2_4_2 li{
+	padding:15px 20px 15px;
+}
+.part2_4_2_icon8{
+	background-image:url(image2/part2_icon8.png);
+	background-position:0px 17px;
+	background-repeat:no-repeat;
+}
+.part2_4_2_icon9{
+	background-image:url(image2/part2_icon9.png);
+	background-position:0px 17px;
+	background-repeat:no-repeat;
+}
+.part2_4_2_icon10{
+	background-image:url(image2/part2_icon10.png);
+	background-position:0px 17px;
+	background-repeat:no-repeat;	
+}
+
+.part3{
+	width:980px;
+	margin-right:20px;
+	height:1206px;
+	background-color:rgb(238,238,238);
+	position:absolute;
+	top:60px;
+	left:260px;
+}
+nav{
+	height:30px;
+	width:100%;
+	background-color:white;
+}
+.nav_span1{
+  font-size: 12.278px;
+  font-family: "SimHei";
+  color: rgb(170, 170, 170);
+  line-height: 30px;
+  position:absolute;
+  left:40px;
+}
+.nav_span2{
+	font-size: 12.278px;
+	  font-family: "SimHei";
+	  color: rgb(117,160,198);
+	  line-height: 30px;
+	  position:absolute;
+	  left:215px;
+}
+.part3_1{
+	width:860px;
+	height:90px;
+	margin:20px 60px 10px 60px;
+	padding:15px 30px;
+	background-color:white;
+	font-size:12px;
+	color:rgb(170,170,170);
+	position:relative;
+}
+.part3_1_1 select{
+	position:absolute;
+	width:80px;
+	height:20px;
+	left:80px;
+	border:1px solid rgb(170,170,170);	
+}
+.part3_1_2{
+	
+}
