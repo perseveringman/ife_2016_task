@@ -12,6 +12,9 @@ var leftOut = document.getElementById("left-out");
 var rightOut = document.getElementById("right-out");
 var queue = document.getElementById("queue");
 function insertNumber(event,text){
+	if (!inputCheck()) {
+		return;
+	};
 	if(text == "leftin"){
 		if(!queue.innerHTML){
 			queue.innerHTML="<div><span>"+aqiInput.value+"</span></div>";
@@ -39,18 +42,21 @@ function insertNumber(event,text){
 function inputCheck(){
 	var getText = aqiInput.value;
 	if(!getText){
-		alert("请输入一串数字！");
+		alert("请输入一串数字！不能以0开头");
+		return false;
 	}
 	else {
 		var match = getText.match(/^[1-9][0-9]*/);
 
 		if(!match){
-			alert(match);
+			alert("请输入一串数字！不能以0开头");
+			return false;
 		}
 /*		else{
 			insertNumber(getText);
 		}*/
 	}
+	return true;
 }
 
 function addClickEvent(){
