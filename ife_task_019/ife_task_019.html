@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Examples</title>
+<style type="text/css">
+	#queue{
+		display:flex;
+		width:900px;
+		height:500px;
+		-webkit-align-items:flex-end;
+		align-items:flex-end;
+	}
+	#queue div{
+		flex:1;
+
+		margin-right:7px;
+		background-color:red;
+		text-align:center;
+		max-width:10px;
+
+	}
+</style>
+</head>
+<body>
+	<input type="text" id="aqi-input" placeholder="10-100之间的数">
+	<button id="left-in">左侧入</button>
+	<button id="right-in">右侧入</button>
+	<button id="left-out">左侧出</button>
+	<button id="right-out">右侧出</button>
+	<button id="random">随机50个数</button>
+	<button id="sort">排序</button>
+	<select id="speed">
+		<option selected = "selected">10</option>
+		<option>50</option>
+		<option>100</option>
+		<option>200</option>
+	</select>
+	<div id="queue"></div>
+    <script type="text/javascript" src="ife_task_019.js"></script>
+</body>
+</html>
