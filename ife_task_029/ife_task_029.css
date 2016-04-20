@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-04-20 22:10:39
+ * @version $Id$
+ */
+*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+		font-family:"Microsoft YaHei";
+		font-size:16px;
+	}
+	#form_name{
+		width:450px;
+		height:100px;
+		position:relative;
+		top:100px;
+		margin:0 auto;
+	}
+	#label_name{
+		margin:0 20px;
+	}
+	.name{
+		width:200px;
+		height:30px;
+		margin-right:20px;
+		padding-left:10px;
+		border-radius:10px;
+		border:1px solid;
+		outline:none;
+	}
+	#button{
+		width:80px;
+		height:30px;
+		color:white;
+		background-color:#333;
+		outline:none;
+		border:1px solid;
+
+		border-radius:10px;
+		line-height:28px;
+	}
+	.prompt{
+		position:relative;
+		left:80px;
+		color:#bbb;
+	}
+	.text_red{
+		color:red;
+	}
+	.border_red{
+		border:1px solid red;
+		
+	}
+	.text_green{
+		color:green;
+	}
+	.border_green{
+		border:1px solid green;
+		
+	}
