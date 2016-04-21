@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-04-21 20:10:39
+ * @version $Id$
+ */
+*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+		font-family:"Microsoft YaHei";
+		font-size:16px;
+	}
+.parent{
+	display:flex; 
+	justify-content:center; 
+	align-items:center;
+	width:100%;
+	height:500px;
+	/*border:1px solid #000;*/
+}
+.child{
+	background-color:#000;
+}
+	#form_name{
+		width:80%;
+		height:400px;
+		
+	}
+	#form_name div{
+		display:table;
+		margin:10px auto;
+	}
+	#label_name{
+		margin-left:30px;
+	}
+	.input{
+		width:200px;
+		height:30px;
+		margin:0 20px;
+		padding-left:10px;
+		border-radius:10px;
+		border:1px solid;
+		outline:none;
+	}
+	#button{
+		display:table;
+		margin:10px auto;
+		width:80px;
+		height:30px;
+		background-color:#333;
+		outline:none;
+		border:1px solid;
+		border-radius:10px;
+		line-height:28px;
+		color:white;
+
+	}
+	.prompt{
+		margin-left:90px;
+		color:#bbb;
+		display:block;
+		font-size:12px;
+	}
+	.text_red{
+		color:red;
+	}
+	.border_red{
+		border:1px solid red;
+	}
+	.text_green{
+		color:green;
+	}
+	.border_green{
+		border:1px solid green;
+		
+	}
