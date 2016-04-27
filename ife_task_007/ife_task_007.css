@@ -51,11 +51,12 @@ header ul{
   height:60px;
   float:right;
 }
-/*header ul li a:hover{
-
-  color: #e74f4d;
-  border-bottom: 5px solid #e74f4d;
-}*/
+.nav li:hover{
+  border-bottom: 7px solid #e74f4d;
+}
+.nav li a{
+    color: #e74f4d;
+}
 .header_a{
   float:right;
   padding: 0 20px;
@@ -417,7 +418,9 @@ header ul li{
   margin:22px auto;
 }
 .part6_2_icon img{
-  margin-right:15px;
+  margin-right:8px;
+  max-width:12px;
+  max-height:12px;
   flex:1;
 }
 
@@ -568,12 +571,12 @@ header ul li{
   background-color:rgb(237,237,237);
 }
 .type1_1{
-  width:310px;
+  width:309.5px;
   height:40px;
   margin-right:20px;
 }
 .type1_2{
-  width:310px;
+  width:309.5px;
   height:40px;
   
 }
